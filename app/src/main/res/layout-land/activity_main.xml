@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+
+    <fragment
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cryto_fragment"
+        android:name="com.iatli.y2021w8fragments.CryptoFragment"
+        tools:layout="@layout/fragment_crypto"
+        />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cryto_detail_fragment"
+        android:name="com.iatli.y2021w8fragments.CryptoDetailFragment"
+        tools:layout="@layout/fragment_crypto_detail"
+        />
+</LinearLayout>

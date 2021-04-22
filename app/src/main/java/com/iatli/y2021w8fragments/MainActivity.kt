@@ -12,14 +12,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun goto_detail(view: View) {
-        val img_btn = view as ImageButton
-        val tag = img_btn.tag.toString()
-
-        //jump to detail
-        val intent = Intent(this, DetailCoinsActivity::class.java)
-        //put info
-        intent.putExtra("crypto_name", tag)
-        startActivity(intent)
-    }
+//    fun goto_detail(view: View) {
+//        val img_btn = view as ImageButton
+//        val tag = img_btn.tag.toString()
+//
+//        //jump to detail
+//        val intent = Intent(this, DetailCoinsActivity::class.java)
+//        //put info
+//        intent.putExtra("crypto_name", tag)
+//        startActivity(intent)
+//    }
 }
