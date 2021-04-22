@@ -1,0 +1,1 @@
+2015 yılında piyasaya sunulan Vitalik Buterin tarafından yazılan başka bir kripto para türü de Ethereum’dur. Ethereum açık kaynaklı bir şekilde yazılmıştır. Bu kripto para türü Bitcoin’in rakibi olarak bilinmektedir ve özel yazılımlar ile üretilmiştir. Bununla beraber Ethereum da Bitcoin gibi herhangi bir kuruluşa bağlı değildir.
